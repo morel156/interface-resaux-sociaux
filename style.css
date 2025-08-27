@@ -1,0 +1,376 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color:rgba(255, 255, 255,0);
+
+    margin: 0px;
+}
+nav ul {
+    float:right;
+    display: flex;
+    margin-top:26px;
+}
+nav ul li {
+    margin: 10px;
+    display:inline-block;
+    
+}
+.div{
+    background-color:white ;
+    box-shadow: 2px 3px 10px rgba(0,0,0,0.5);
+    margin: 10px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    opacity: 0.7;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    opacity: 1;
+}
+h1{
+    position: absolute;
+    color: white;
+    display: block;
+    margin-left: 30px;
+}
+header{
+    background-color: navy;
+    height: 100px;
+}
+.icones{
+    float: left;
+    width : 200px; 
+    height: auto;
+    background-color:white;
+    margin-top: 20px;
+    border: 2px solid white;
+    box-shadow:50px 15px 20px whitesmoke ;
+    margin-left: 10px;
+    
+} 
+.icones ul li{
+    display: inline-block;
+}
+.icones ul li a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+    padding: 5px;
+    line-height: 35px;
+    
+}
+.icones ul li a:hover {
+    font-weight: bold;
+    opacity: 1;
+    background-color:white;
+    border: 1px solid white;
+    box-shadow: 1px 1px 4px black;
+    
+    
+}
+.seul{
+    border: 1px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+
+
+
+.milieu {
+    float:left ;
+    height: auto;
+    background-color:white;
+    width: 740px;
+    margin-left: 10px;
+    margin-top: 20px;
+    border: 1px solid white;
+    box-shadow: 50px 15px 20px whitesmoke;
+    text-align: justify;
+    padding: 10px;
+    
+    
+}
+aside{
+    float: right;
+    height:auto ;
+    background-color: azure;
+    width: 500px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: 1px solid white;
+    box-shadow: 50px 15px 20px whitesmoke;
+    text-align: justify;
+    padding: 10px;
+}
+.img1{
+    float: left;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+    margin-top: 18px;
+    margin-left: 10px;
+    
+}
+.img2{
+    width: 720px;
+    height: 392px;
+    object-fit: cover;
+}
+.text{
+    float: left;
+    margin-left: 10px;
+    margin-top: 0px;
+    overflow: hidden;
+}
+em{
+    font-size: 15px;
+    opacity: 0.7;
+}
+.hr1{
+    border-top:3px solid black;
+    color:black;
+}
+.aime{
+    float: left;
+    padding-top: Opx;
+}
+.com{
+    float: right;
+}
+.hr2{
+    border-top:10px solid black;
+    padding: 0px;
+}
+.text2{
+    float: left;
+    margin-left: 10px;
+    margin-top: 0px;
+       
+}
+.img3{
+    float: left;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+    margin-top: 18px;
+    margin-left: 10px;
+    
+}
+.para1{
+    width: 400px;
+    height: auto;
+    border: 2px solid white;
+    box-shadow: 50px 15px 20px whitesmoke;
+    margin-left: 50px;
+    padding: 10px;
+} 
+.para2{
+    width: 400px;
+    height: auto;
+    border: 2px solid white;
+    box-shadow: 50px 15px 20px whitesmoke;
+    margin-left: 50px;
+    padding: 10px;
+}
+.img4{
+    float: left;
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    margin-top: 28px;
+    margin-left: 10px;
+}
+hr{
+    clear: both;
+}
+.hr3{
+    color: white;
+}
+@media only screen and (max-width:1450px){
+    .milieu{
+        width: 450px;
+    }
+    .img2{
+        width:  430px;
+        height: 422px;
+        object-fit: cover;
+    }
+}
+@media only screen and (max-width:1220px){
+    .milieu{
+        width: 350px;
+    }
+    .img2{
+        width:  330px;
+        height: 322px;
+        object-fit: cover;
+    }
+    
+}
+@media only screen and (max-width:1120px){
+    .icones{
+        height: 1325.83;
+    }
+    aside{
+        float: none;
+        height:auto ;
+        background-color: white;
+        width: 760px;
+        margin-right: 20px;
+        border: 1px solid white;
+        box-shadow: 50px 15px 20px whitesmoke;
+        text-align: justify;
+        padding: 10px;
+        display: inline-block;
+        margin-left: 200px;
+    }
+    .text2{
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        margin-left: 20px;
+             
+    }
+    .para1{
+        width: 660px;
+    }
+    .para2{
+        width: 660px;
+    }
+
+    .milieu{
+        width: 740px;
+    }
+    .img2{
+        width: 720px;
+        height: 392px;
+        object-fit: cover;
+    }
+    .text3{
+        margin-top: 0px;
+    }
+    h2{
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+       
+    }
+   
+    
+}
+@media only screen and (max-width:977px){
+    .milieu{
+        width: 500px;
+    }
+    .img2{
+        width:  480px;
+        height: 180px;
+        object-fit: cover;
+    }
+    aside{
+        width: 600px;
+        margin-left: 100px;
+        background-color: azure;
+        border: none;
+        box-shadow: none;
+    }
+    .para1{
+        width: 400px;
+        background-color: azure;
+        border: none;
+    }
+    .para2{
+        width: 400px;
+        background-color: azure;
+        border: none;
+    }
+    
+}
+@media only screen and (max-width:736px){
+    aside{
+        width: 500px;
+        margin-left:0px;
+        background-color:white;
+        border: none;
+        box-shadow: none;
+    }
+    .para1{
+        width: 400px;
+        background-color: azure;
+        border: none;
+    }
+    .para2{
+        width: 400px;
+        background-color: azure;
+        border: none;
+    }
+    .milieu{
+        width: 500px;
+    }
+    .img2{
+        width:  480px;
+        height: 180px;
+        object-fit: cover;
+    }
+    
+}
+@media only screen and (max-width:523px){
+    aside{
+        width: 300px;
+        margin-left:0px;
+        background-color:white;
+        border: none;
+        box-shadow: none;
+    }
+    .para1{
+        width: 300px;
+        background-color: azure;
+        border: none;
+        margin-left: 0px;
+        padding: 0px;
+    }
+    .para2{
+        width: 300px;
+        background-color: azure;
+        border: none;
+        margin-left: 0px;
+        padding: 0px;
+    }
+    .milieu{
+        width: 300px;
+    }
+    .img2{
+        width:  280px;
+        height: auto;
+        object-fit: cover;
+    }
+    nav ul{
+        margin-top: 60px; 
+        margin-left: 0px;
+        padding: 0px;
+        position: absolute;
+    }
+    h1{
+        position: absolute;
+        color: white;
+        display: block;
+        margin-left: 120px;
+    }
+    .icones{
+        float: left;
+        width : 300px; 
+        height: auto;
+        background-color:white;
+        margin-top: 20px;
+        border: 2px solid white;
+        box-shadow:50px 15px 20px whitesmoke ;
+        margin-left: 10px;
+        
+    } 
+    
+}
+
+
+
